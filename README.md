@@ -178,10 +178,18 @@ const clusterLayer = new TeritorioCluster(id, sourceId, options)
 
 ##### unfoldedClusterRender
 The following rendering function are at your disposal:
+- `unfoldedClusterRenderSmart` (default): Renders an unfolded cluster in a smart shape (between circle and hexagonal) based on the number of items.
+
+  <img src="public/smart-layout.png" alt="Smart layout" width="280" />
 - `unfoldedClusterRenderCircle`: Renders an unfolded cluster in a circular shape.
+
+  <img src="public/circle-layout.png" alt="Circle layout" width="128" />
 - `unfoldedClusterRenderHexaGrid`: Renders an unfolded cluster in a hexagonal grid spiral.
+
+  <img src="public/hexagonal-layout.png" alt="Hexagonal layout" width="128" />
 - `unfoldedClusterRenderGrid`: Renders an unfolded cluster in a square grid.
-- `unfoldedClusterRenderSmart` (default): Renders an unfolded cluster in a smart shape based on the number of items.
+
+  <img src="public/grid-layout.png" alt="Grid layout" width="128" />
 
 ## Events
 
